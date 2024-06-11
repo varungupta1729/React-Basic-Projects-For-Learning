@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid black; */
+    flex-direction: column;
+     gap: 20px;
+     background-color: darksalmon;
+}
+.wrapper button{
+    padding: 10px 20px;
+}
+.accordian{
+    border-radius: 20px;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.item{
+    border-radius: 20px;
+    color: white;
+    background-color: black ;
+    /* border: 2px solid rgb(46, 9, 9); */
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.title{
+  
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between  ;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.qr{
+    background-color: azure;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.qr button{
+   margin-left: 50px;
+}

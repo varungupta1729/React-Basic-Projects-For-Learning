@@ -1,0 +1,42 @@
+
+.full-container{
+    width:100vw;
+    
+    
+}
+.button button{
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 10px 40px;
+}
+.load-more-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.items{
+  
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.items img{
+    width : 70%;
+    height: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
